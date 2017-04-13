@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pickUp: MyString
+  dropOff: MyString
+  location: MyString
+  isOpen: MyString
+  confirmation: MyString
+
+two:
+  pickUp: MyString
+  dropOff: MyString
+  location: MyString
+  isOpen: MyString
+  confirmation: MyString
