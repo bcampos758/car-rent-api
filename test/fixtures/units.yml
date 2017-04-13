@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mileage: MyString
+  isAvailable: false
+  vin: MyString
+  license: MyString
+  vehicle: one
+  reservation: one
+
+two:
+  mileage: MyString
+  isAvailable: false
+  vin: MyString
+  license: MyString
+  vehicle: two
+  reservation: two
