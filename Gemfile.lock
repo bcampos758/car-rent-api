@@ -45,11 +45,14 @@ GEM
     coderay (1.1.1)
     concurrent-ruby (1.0.5)
     erubis (2.7.0)
+    faker (1.7.3)
+      i18n (~> 0.5)
     ffi (1.9.18)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.8.1)
     jwt (1.5.6)
+    license_plate (1.0.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -132,7 +135,9 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
+  faker
   jwt
+  license_plate
   listen (~> 3.0.5)
   pg (~> 0.18)
   pry-rails

@@ -45,3 +45,9 @@ gem 'jwt'
 
 # IRB alternative and runtime developer console
 gem 'pry-rails'
+
+# generates fake data
+gem 'faker'
+
+# license plate generator
+gem 'license_plate'
