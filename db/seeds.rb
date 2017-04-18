@@ -83,7 +83,7 @@ vehicles  = [yaris, rio, fiesta, spark, sonic, versa, focus, corolla, avenger, e
 locations = ["Weston", "Boca Raton", "Miami", "Fort Lauderdale", "Coral Springs", "Sunrise"]
 
 for v in vehicles
-  5.times do
+  15.times do
     v.units.create(mileage: Faker::Number.between(1000, 70000), isAvailable: Faker::Boolean.boolean, vin: Faker::Vehicle.unique.vin, location: locations[Faker::Number.between(0, 5)])
   end
 end
