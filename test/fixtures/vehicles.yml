@@ -1,23 +1,25 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  manufacturer: MyString
-  model: MyString
-  img: MyString
-  year: MyString
-  vehicleType: MyString
-  capacity: 1
-  quantity: 1
-  rate: 9.99
-  transmission: MyString
+  manufacturer: Toyota
+  model: Yaris
+  img:
+    https://images-na.ssl-images-amazon.com/images/G/01/Automotive/Entity/Chrome/v2/14379._CB167378628_.jpg
+  year: 2013
+  vehicleType: Economy
+  capacity: 4
+  quantity: 5
+  rate: 14.31
+  transmission: Automatic
 
 two:
-  manufacturer: MyString
-  model: MyString
-  img: MyString
-  year: MyString
-  vehicleType: MyString
-  capacity: 1
-  quantity: 1
-  rate: 9.99
-  transmission: MyString
+  manufacturer: Nissan
+  model: Versa
+  img:
+    http://st.motortrend.com/uploads/sites/10/2015/11/2015-nissan-versa-1.6-sv-auto-sedan-angular-front.png
+  year: 2015
+  vehicleType: Compact
+  capacity: 4
+  quantity: 5
+  rate: 15.23
+  transmission: Automatic
